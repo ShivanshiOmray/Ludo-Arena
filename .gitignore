@@ -1,0 +1,93 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+
+# Android/IntelliJ
+build/
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+captures/
+
+# React Native
+*.jsbundle
+*.pack
+.expo/
+.expo-shared/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Fastlane (if used)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+# Pods
+**/Pods/
+vendor/bundle/
+
+# Metro cache
+.metro-cache/
+.metro-health-check*
+
+# Test & reports
+jest-html-reporters-*
+
+# APKs / Binaries (DO NOT push builds to GitHub)
+*.apk
+*.aar
+*.ipa
+
+# Keystore & secrets
+android/app/ludo-keystore.jks
+keystore.properties
+
+# IDE / Editor folders
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
